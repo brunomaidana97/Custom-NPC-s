@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Merchant" script="refiller.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100" />
+	<look type="1251" head="78" body="106" legs="58" feet="76" addons="3" mount="0"/>
+	<parameters>
+		<parameter key="message_greet" value="I sell a selection of {various} items, {distance} weapons, {wands} and {rods}, {potions}, {runes}, {foods} and {tools} goods. Just ask!"/>
+	</parameters>
+</npc>
